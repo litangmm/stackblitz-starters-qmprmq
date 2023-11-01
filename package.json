@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx rollup input.js -f esm -o bundle.js"
+    "build": "npx rollup src/input.js -f esm -o dist/bundle.js"
   },
   "devDependencies": {
     "rollup": "^4.2.0"
